@@ -3,11 +3,11 @@
 List<Alumno> lista = new List<Alumno>();
 
 Alumno alumno1 = new Alumno();
-alumno1.Nombres = "Heriberto";
+alumno1.Nombres = "Ramón Heriberto";
 alumno1.ApellidoPaterno = "Robles";
 alumno1.ApellidoMaterno = "Coronado";
 alumno1.Matricula = "C914";
-alumno1.FechaNacimiento = DateTime.Now;
+alumno1.FechaNacimiento = new DateTime(1990,08,26);
 
 
 Alumno alumno2 = new Alumno();
@@ -36,7 +36,7 @@ foreach (Alumno alumnoEnLista in lista)
         + alumnoEnLista.NombreCompleto
         + " Matrícula: "
         + alumnoEnLista.Matricula
-        + "Fecha de Nacimiento: "
+        + " Fecha de Nacimiento: "
         + alumnoEnLista.FechaNacimiento.ToString("dd-MM-yyyy"));
 
 }
