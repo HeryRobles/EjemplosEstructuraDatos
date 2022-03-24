@@ -71,7 +71,7 @@ namespace EjemplosEstructuraDatos
         {
             get 
             {
-                return nombres + " " + apellidoPaterno + " " + apellidoMaterno;
+                return $"{nombres}  {apellidoPaterno}  {apellidoMaterno}";
 
             }  
         }
